@@ -13,11 +13,20 @@ class Program
         bool value = scripture.IsCompletelyHidden();
         while (value == false)
         {
-            Console.ReadLine();
+            Console.WriteLine("");
+            Console.Write("Please, press enter, or type quit ");
+            string response = Console.ReadLine();
+            if (response != "quit")
+            {
             Console.Clear();
             scripture.HideRandomWords(3);
             Console.WriteLine(scripture.GetDisplayText());
             value = scripture.IsCompletelyHidden();
+            }
+            else 
+            {
+                value = true;
+            }
         }
     }
 }
