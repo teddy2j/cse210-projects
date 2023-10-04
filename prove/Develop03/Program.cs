@@ -15,7 +15,7 @@ class Program
         {
             Console.ReadLine();
             Console.Clear();
-            scripture.HideRandomWords(1);
+            scripture.HideRandomWords(3);
             Console.WriteLine(scripture.GetDisplayText());
             value = scripture.IsCompletelyHidden();
         }
