@@ -1,0 +1,4 @@
+70
+EternalGoal:run,run 15min,50,False
+EternalGoal:read scr,read 15min,50
+ChecklistGoal:jump,touch roof,20,3,3,10
