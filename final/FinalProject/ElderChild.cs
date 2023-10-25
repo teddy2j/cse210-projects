@@ -1,0 +1,2 @@
+public class ElderChild: Elder
+
